@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+    <title>js</title>
+  </head>
+  <body>
+    <div class="cambia">
+      <a href="#">
+        <img
+          src="assets/img/ejemplo.jpg"
+          alt="te la kreiste weee"
+          id="imagen"
+        />
+      </a>
+    </div>
+    <div class="cajota">
+      <div class="contenedor">
+        <img src="assets/img/stickeruno.gif" alt="yummi" />
+        <br />
+        <input type="text" placeholder="cantidad" id="uno" />
+      </div>
+      <div class="contenedor">
+        <img src="assets/img/stickerdos.gif" alt="lol" />
+        <br />
+        <input type="text" placeholder="cantidad" id="dos" />
+      </div>
+      <div class="contenedor">
+        <img src="assets/img/stickertres.gif" alt="yasuoi" />
+        <br />
+        <input type="text" placeholder="cantidad" id="tres" />
+      </div>
+    </div>
+
+    <div class="centrar-boton">
+      <button id="calcularBtn">Calcular Total</button>
+    </div>
+    <p class="resultado">Ingresa el password</p>
+    <p class="resultado" id="resultado"></p>
+
+    <div class="select">
+      <select id="selectuno">
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+        <option value=5>5</option>
+        <option value=6>6</option>
+        <option value=7>7</option>
+        <option value=8>8</option>
+        <option value=9>9</option>
+      </select>
+      <select id="selectdos">
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+        <option value=5>5</option>
+        <option value=6>6</option>
+        <option value=7>7</option>
+        <option value=8>8</option>
+        <option value=9>9</option>
+      </select>
+      <select id="selecttres">
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+        <option value=5>5</option>
+        <option value=6>6</option>
+        <option value=7>7</option>
+        <option value=8>8</option>
+        <option value=9>9</option>
+      </select>
+    </div>
+    <div class="centrar-boton">
+      <button id="ingresar">Ingresar</button>
+    </div>
+    <p class="resultado" id="password"></p>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
+
+<!-- pagina 1 "css"
+1-una imagen que se le agrega border red de 2 px al hacer click y se borra al hacer click (FUNCIONAL)
+
+pagina 2 "stickers"
+3 stickers en pantalla con un input debajo
+if sticerks1.value + sticker2.value + sticker3.value >= 10{
+	se imprime el numero de stickers
+}
+else "llevas demasiados stickers"
+
+pagina con 3 select con boton
+911 correcto
+714 correcto
+cualquier otra incorrecto
+
+al presionar "boton"
+if selec1=9 and select2=1 and select3=1
+se imprime por pantalla "password 1 correcta"
+else {
+	if selec1=7 and select2=1 and select3=4
+	se imprime por pantalla "password 2 correcta"
+}
+
+
+pagina 3 "select"
+ -->

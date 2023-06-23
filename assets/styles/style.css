@@ -1,0 +1,36 @@
+.seleccionado {
+  border: 2px solid red;
+}
+
+img {
+  width: 200px;
+}
+
+/* una vez se seleccione la imagen tomara estos atributos */
+.contenedor {
+  text-align: center;
+}
+
+.contenedor img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.contenedor input {
+  width: 300px;
+  padding: 5px;
+  font-size: 16px;
+}
+.cajota {
+  display: flex;
+}
+.centrar-boton {
+  text-align: center;
+}
+.resultado {
+  text-align: center;
+}
+.select {
+  text-align: center;
+}
