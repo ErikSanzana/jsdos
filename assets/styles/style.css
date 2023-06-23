@@ -5,7 +5,9 @@
 img {
   width: 200px;
 }
-
+.cambia{
+  text-align: center;
+}
 /* una vez se seleccione la imagen tomara estos atributos */
 .contenedor {
   text-align: center;
